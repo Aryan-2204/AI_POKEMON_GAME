@@ -1,0 +1,16 @@
+[project]
+name = "ai-pokemon-game"
+version = "0.1.0"
+description = "AI Trainer vs Pokémon — Pygame chase demo"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+  "pygame-ce==2.5.7"
+]
+
+[project.scripts]
+ai-pokemon = "main:main"
+
+[build-system]
+requires = ["setuptools>=61","wheel"]
+build-backend = "setuptools.build_meta"
